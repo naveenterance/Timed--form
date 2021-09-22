@@ -11,5 +11,7 @@
             "email": "naveenterance@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-gd": "*"
+    }
 }
