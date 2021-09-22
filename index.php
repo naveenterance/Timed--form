@@ -10,7 +10,7 @@ session_start();
     die();
   }}
 
- header('Refresh:10;URL= http://localhost/aelum/timeout.php');
+ header('Refresh:180;URL= timeout.php');
 ?>
 <?php include('header.php'); ?>
   <h3 style="color:red" align="center">
@@ -45,7 +45,7 @@ session_start();
     
 <script >
 
-var c = 10;
+var c = 180;
 var t;
 timedCount();
 
