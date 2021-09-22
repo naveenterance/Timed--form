@@ -31,11 +31,11 @@ session_start();
             <input type="text" class="form-control" id="name" required="required">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="email">Email address</label>
             <input type="email" class="form-control" id="email" placeholder="name@example.com" required="required">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">About Yourself</label>
+            <label for="about">About Yourself</label>
             <textarea class="form-control" id="about" rows="3"></textarea>
         </div>
         <label for="birthday">Birthday:</label>
@@ -46,7 +46,7 @@ session_start();
         </div>
         <div class="form-group small clearfix">
             <label class="checkbox-inline">Verification Code</label>
-            <img src="/captcha.php">
+            <img src="captcha.php">
         </div>
         <input type="submit" class="btn btn-primary btn-block btn-lg" value="submit">
     </form>
