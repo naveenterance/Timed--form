@@ -46,7 +46,7 @@ session_start();
         </div>
         <div class="form-group small clearfix">
             <label class="checkbox-inline">Verification Code</label>
-            <img src="captcha.php">
+            <img src="/captcha.php">
         </div>
         <input type="submit" class="btn btn-primary btn-block btn-lg" value="submit">
     </form>
