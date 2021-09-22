@@ -5,7 +5,9 @@ session_start();
         echo "<script>alert('Incorrect verification code try again');</script>" ;
     } 
   else{
-    echo "<script>alert('Details submitted !');</script>" ;
+    //echo "<script>alert('Suceess !!! Details submitted !');</script>" ;
+    header("Location: success.php");
+    die();
   }}
 ?>
 <!DOCTYPE html>
