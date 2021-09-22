@@ -1,0 +1,15 @@
+{
+    "name": "naveen/aelum",
+    "autoload": {
+        "psr-4": {
+            "Naveen\\Aelum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Naveen",
+            "email": "naveenterance@gmail.com"
+        }
+    ],
+    "require": {}
+}
